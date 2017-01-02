@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded',function() {
 	const ctx = canvas.getContext('2d');
 	const strip = document.getElementById('strip');
 	const snap = document.getElementById('snap');
+	const button = document.querySelector('button');
 
 	function getVideo() {
 		navigator.mediaDevices.getUserMedia({video : true, audio: false})
@@ -42,4 +43,6 @@ document.addEventListener('DOMContentLoaded',function() {
 	}
 
 	video.addEventListener('canplay', paintToCanvas);
+	button.addEventListener('click', takePic);
+
 });
