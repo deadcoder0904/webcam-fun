@@ -1,6 +1,6 @@
 # webcam-fun
 
-> Webcam in your Browser
+> :sunglasses: Fun with Webcam in the Browser :wink:
 
 ## License
 
