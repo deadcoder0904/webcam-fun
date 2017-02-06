@@ -2,11 +2,11 @@
   "name": "webcam-fun",
   "version": "1.0.0",
   "description": "Fun with Webcam in the Browser",
-  "main": "index.js",
+  "main": "index.html",
   "author": "Akshay Kadam <akshaykadam0904@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "browser-sync start --server --files '*.css *.html *.js'"
+    "start": "browser-sync start --server --files 'css/*.css *.html js/*.js'"
   },
   "dependencies": {
     "browser-sync": "^2.18.5"

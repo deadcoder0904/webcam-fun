@@ -42,6 +42,8 @@ document.addEventListener('DOMContentLoaded',function() {
 		strip.insertBefore(link, strip.firstChild);
 	}
 
+	getVideo();
+
 	video.addEventListener('canplay', paintToCanvas);
 	button.addEventListener('click', takePic);
 
